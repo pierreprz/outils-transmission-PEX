@@ -4,8 +4,9 @@ Outil pédagogique d'aide à la décision pour la transmission d'entreprise, dé
 
 ## Utilisation
 
-L'outil est une application web autonome contenue dans un seul fichier : **`index.html`**.
+L'outil est une application web autonome contenue dans un seul fichier : **`Outil.html`**.
 Il suffit de l'ouvrir dans un navigateur web (Chrome, Edge, Firefox, Safari) — aucune installation n'est requise.
+Un mot de passe est demandé au démarrage.
 
 > Une connexion internet est nécessaire au premier chargement (polices Google Fonts et
 > bibliothèques Chart.js, jsPDF, SheetJS/ExcelJS et PDF.js chargées via CDN).
@@ -22,8 +23,12 @@ Il suffit de l'ouvrir dans un navigateur web (Chrome, Edge, Firefox, Safari) —
 
 ## Charte graphique
 
+Interface en tons froids (deux bleus + une nuance teal), sans doré dans l'UI.
+
 | Couleur | Code | Usage |
 |---|---|---|
 | Bleu Marine Profond | `#002D62` | Couleur principale (barre latérale, titres, texte) |
-| Bleu Turquoise | `#6CB4CF` | Accent secondaire (graphiques, éléments décoratifs) |
-| Laiton Doré | `#C2A261` | Accent premium (filets, badges, mises en avant) |
+| Bleu Turquoise | `#6CB4CF` | 2ᵉ bleu — accents, tuiles, graphiques |
+| Teal (nuance) | `#178FA0` | Accent interactif (boutons, états actifs, filets) |
+
+> Le **Laiton Doré `#C2A261`** reste présent uniquement dans le logo.
